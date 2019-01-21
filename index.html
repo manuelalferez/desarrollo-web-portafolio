@@ -6,34 +6,28 @@
     <title>Manuel Alférez</title>
     <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" href="styles/styles.css">
-
-    <style>
-        header{
-            background: red;
-        }
-    </style>
 </head>
 
 <body>
-    <header>
-        <figure>
+    <header class="header"
+        <figure class="logo">
             <img src="images/logo.png" alt="Logo: Manuel Alférez">
         </figure>
-        <nav>
+        <nav class="menu">
             <ul>
                 <li>
-                    <a href="./portafolio/index.html">Portafolio</a>
+                    <a class="link" href="./portafolio/index.html">Portafolio</a>
                 </li>
                 <li>
-                    <a href="#eventos">Experiencia</a>
+                    <a class="link" href="#eventos">Experiencia</a>
                 </li>
                 <li>
-                    <a href="#contacto">¿Creamos algo juntos?</a>
+                    <a class="link" href="#contacto">¿Creamos algo juntos?</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section>
+    <section class="hero">
         <h1>Hola! Soy <strong>Manuel Alférez</strong>, <br>
             autodidacta y emprendedor <br>
             con <strong>pasión</strong> ;)</h1>
@@ -41,19 +35,19 @@
         <img src="images/perfil.jpg" alt="Imágen de perfil" height="300">
     </section>
 
-    <section id="portafolio">
-        <h2>Proyectos destacados</h2>
-        <article>
-            <h3>Proyecto Racacá</h3>
-            <h6>Uno de mis mejores proyecto inventados</h6>
-            <p> <strong>Fecha:</strong>14/08/1999</p>
-            <p>
+    <section id="portafolio" class="portfolio">
+        <h2>Portafolio (Proyectos destacados)</h2>
+        <article class="project">
+            <h3 class="project-title">Proyecto Racacá</h3>
+            <h6 class="project-course">Uno de mis mejores proyecto inventados</h6>
+            <p class="project-date"> <strong>Fecha:</strong>14/08/1999</p>
+            <p class="project-description">
                 Si nunca escuchaste del proyecto es porque jamás existió. Pero puedes imaginarte cualquier cosa
                 sobre el proyecto; proyecto de la NASA, proyecto sobre cabar medios hoyos de 5 min con un pico, lo que
                 desees. Eso curre a tu cuenta.
             </p>
             <p> <small>Puedes verlo aquí:</small></p>
-            <a href="https://helpx.adobe.com/es/acrobat/kb/print-double-sided-acrobat-reader.html">Enlace del proyecto
+            <a class="project-url" href="https://helpx.adobe.com/es/acrobat/kb/print-double-sided-acrobat-reader.html">Enlace del proyecto
                 (NOTA:
                 la impresora y el papel no incluidos).</a>
         </article>
@@ -62,23 +56,23 @@
         <h2>
             Eventos
         </h2>
-        <article>
-            <figure>
-                <img src="images/astronauta.png" alt="Imagen de astronauta" height="200" height="100">
+        <article class="event">
+            <figure class="event-imageContainer">
+                <img class="event-image" src="images/astronauta.png" alt="Imagen de astronauta" height="200" height="100">
             </figure>
-            <h3>Conferencia Madrid 2018</h3>
+            <h3 class="event-title">Conferencia Madrid 2018</h3>
             <p>Participación en el congreso de commit-conf 2018 en Madrid</p>
-            <a href="https://www.youtube.com/watch?v=udsXivliKsM" target="_blank">Ver charlas</a>
+            <a class="event-url" href="https://www.youtube.com/watch?v=udsXivliKsM" target="_blank">Ver charlas</a>
         </article>
     </section>
-    <section id="contacto">
+    <section id="contacto" class="contact">
         <h3>¿Hacemos algo juntos?</h3>
-        <form action="/subcripcion/">
+        <form action="/subcripcion/" class="form-email">
             <input type="text" placeholder="Escribeme aquí tu correo">
             <button>Enviar</button>
         </form>
     </section>
-    <footer>footer</footer>
+    <footer class="footer">footer</footer>
 </body>
 
 </html>
