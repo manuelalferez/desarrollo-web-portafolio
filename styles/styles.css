@@ -29,3 +29,24 @@ h1{
 .project-imageContainer{
     width: 50%;
 }
+
+.hero{
+    background-color: #4AD5FF;
+    background-image: url(../images/perfil.jpg);
+    background-size: 112px 200px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.hero strong{
+    color:#20232A;
+}
+
+.header{
+    background-color: #4AD5FF;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}   
