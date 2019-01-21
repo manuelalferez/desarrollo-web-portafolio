@@ -19,11 +19,12 @@ h1{
     font-size: 40px;
     line-height: 1.5em;
     letter-spacing: -.2px;
-
+    margin: 0;
 }
 
 .project-details{
     width: 50%;
+    margin: 20px;
 }
 
 .project-imageContainer{
@@ -45,7 +46,7 @@ h1{
 .project{
     border: 1px solid gray;
     border-radius: 10px;
-    border-top-width: 20px;
+    margin-top: 10px;
 }
 
 .header{
@@ -56,3 +57,7 @@ h1{
     color: white;
     text-decoration: none;
 }   
+
+.header ul{
+    margin: 0;
+}
