@@ -8,6 +8,7 @@ body{
 
 body, button{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,11 +21,12 @@ h1{
     line-height: 1.5em;
     letter-spacing: -.2px;
     margin: 0;
+    padding: 30px;
 }
 
 .project-details{
     width: 50%;
-    margin: 20px;
+    padding: 10px;
 }
 
 .project-imageContainer{
@@ -32,9 +34,9 @@ h1{
 }
 
 .hero{
-    background-color: #4AD5FF;
+    background-color: #004E64;
     background-image: url(../images/perfil.jpg);
-    background-size: 112px 200px;
+    background-size: 135px 240px;
     background-repeat: no-repeat;
     background-position-x: right;
 }
@@ -43,14 +45,27 @@ h1{
     color:#20232A;
 }
 
+.portfolio{
+    background: #004E64;
+    padding-bottom: 30px;
+}
+
+.portfolio h2{
+    margin: 0;
+    padding: 10px;
+}
+
 .project{
+    background-color: #ecf0f1;
     border: 1px solid gray;
     border-radius: 10px;
-    margin-top: 10px;
+    margin: 50px;
+    margin-bottom: 0;
 }
 
 .header{
     background-color: #4AD5FF;
+    padding: 10px;
 }
 
 .header a {
@@ -60,4 +75,31 @@ h1{
 
 .header ul{
     margin: 0;
+}
+
+#eventos {
+    background-color: #FFB300;
+}
+
+#eventos h2{
+    margin-top: 0;
+    padding: 10px;
+}
+
+.event{
+    padding: 10px;
+}
+
+.event a{
+    color: black;
+    text-decoration: none;
+    border: 3px solid #4AD5FF;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: #ecf0f1;
+}
+
+.contact{
+    background-color: #06C5FB;
+    padding: 10px;
 }
