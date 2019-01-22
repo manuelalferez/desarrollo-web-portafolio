@@ -9,6 +9,7 @@ body{
 body, button {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    background: #4AD5FF;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -67,12 +68,18 @@ h1 {
     background-color: #4AD5FF;
     padding: 0px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     height: 146.33px;
 }
 
+.header img{
+    display: flex;
+}
+
 .menu {
     height: inherit;
+    padding: 10px;
     justify-content: center;
 }
 
@@ -123,6 +130,31 @@ figure {
 }
 
 .contact {
-    background-color: #06C5FB;
+    background-color: #004E64;
     padding: 10px;
+}
+
+footer {
+    background-color: #004E64;
+    border-top: 2px solid #4AD5FF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.footer p{
+    margin: 0;
+    padding: 15px;
+}
+
+.footer a{
+    color: black;
+}
+
+.footer img{
+    vertical-align: middle;
 }
