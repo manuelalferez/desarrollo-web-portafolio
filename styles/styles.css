@@ -25,14 +25,6 @@ h1 {
     padding: 30px;
 }
 
-.project-details {
-    width: 50%;
-    padding: 10px;
-}
-
-.project-imageContainer {
-    width: 50%;
-}
 
 .hero {
     background-color: #004E64;
@@ -47,22 +39,61 @@ h1 {
 }
 
 .portfolio {
-    background: #004E64;
+    background: white;
     padding-bottom: 30px;
 }
 
 .portfolio h2 {
     margin: 0;
-    padding: 10px;
+    padding: 30px 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .project {
     background-color: #ecf0f1;
     border: 1px solid gray;
     border-radius: 10px;
-    margin: 50px;
-    margin-bottom: 0;
+    margin:0px 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.project-details {
+    width: 50%;
+    padding: 10px;
+    margin: 0;
+}
+
+.project-imageContainer {
+    width: 50%;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+.project img{
+    border-radius: 8px;
+}
+
+.project-title{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+}
+
+.project-course{
+    margin-bottom: 0px;
+    margin-top: 6px;
+}
+
+.project-description{
+    margin-top: 40px;
+    font-size: 19px;
+}
+
 
 .header {
     background-color: #4AD5FF;
@@ -73,7 +104,7 @@ h1 {
     height: 146.33px;
 }
 
-.header img{
+.header img {
     display: flex;
 }
 
@@ -146,15 +177,15 @@ footer {
     align-items: center;
 }
 
-.footer p{
+.footer p {
     margin: 0;
     padding: 15px;
 }
 
-.footer a{
+.footer a {
     color: black;
 }
 
-.footer img{
+.footer img {
     vertical-align: middle;
 }
