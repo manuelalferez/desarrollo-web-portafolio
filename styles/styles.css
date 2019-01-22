@@ -6,7 +6,7 @@ body{
     background: pink;
 } */
 
-body, button{
+body, button {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
-h1{
+h1 {
     font-size: 40px;
     line-height: 1.5em;
     letter-spacing: -.2px;
@@ -24,16 +24,16 @@ h1{
     padding: 30px;
 }
 
-.project-details{
+.project-details {
     width: 50%;
     padding: 10px;
 }
 
-.project-imageContainer{
+.project-imageContainer {
     width: 50%;
 }
 
-.hero{
+.hero {
     background-color: #004E64;
     background-image: url(../images/perfil.jpg);
     background-size: 135px 240px;
@@ -41,21 +41,21 @@ h1{
     background-position-x: right;
 }
 
-.hero strong{
-    color:#20232A;
+.hero strong {
+    color: #20232A;
 }
 
-.portfolio{
+.portfolio {
     background: #004E64;
     padding-bottom: 30px;
 }
 
-.portfolio h2{
+.portfolio h2 {
     margin: 0;
     padding: 10px;
 }
 
-.project{
+.project {
     background-color: #ecf0f1;
     border: 1px solid gray;
     border-radius: 10px;
@@ -63,17 +63,40 @@ h1{
     margin-bottom: 0;
 }
 
-.header{
+.header {
     background-color: #4AD5FF;
-    padding: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 146.33px;
+}
+
+.menu {
+    height: inherit;
+    justify-content: center;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    height: inherit;
+    margin: 0;
+}
+
+.header ul li {
+    height: inherit;
 }
 
 .header a {
     color: white;
     text-decoration: none;
-}   
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0px 10px;
+}
 
-.header ul{
+figure {
     margin: 0;
 }
 
@@ -81,16 +104,16 @@ h1{
     background-color: #FFB300;
 }
 
-#eventos h2{
+#eventos h2 {
     margin-top: 0;
     padding: 10px;
 }
 
-.event{
+.event {
     padding: 10px;
 }
 
-.event a{
+.event a {
     color: black;
     text-decoration: none;
     border: 3px solid #4AD5FF;
@@ -99,7 +122,7 @@ h1{
     background-color: #ecf0f1;
 }
 
-.contact{
+.contact {
     background-color: #06C5FB;
     padding: 10px;
 }
