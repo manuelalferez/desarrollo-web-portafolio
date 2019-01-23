@@ -1,15 +1,7 @@
-/* header{
-    background: red;
-}
-
-body{
-    background: pink;
-} */
-
 body, button {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    background: #4AD5FF;
+    background: #004E64;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,75 +17,7 @@ h1 {
     padding: 30px;
 }
 
-
-.hero {
-    background-color: #004E64;
-    background-image: url(../images/perfil.jpg);
-    background-size: 135px 240px;
-    background-repeat: no-repeat;
-    background-position-x: right;
-}
-
-.hero strong {
-    color: #20232A;
-}
-
-.portfolio {
-    background: white;
-    padding-bottom: 30px;
-}
-
-.portfolio h2 {
-    margin: 0;
-    padding: 30px 50px;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-}
-
-.project {
-    background-color: #ecf0f1;
-    border: 1px solid gray;
-    border-radius: 10px;
-    margin:0px 50px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.project-details {
-    width: 50%;
-    padding: 10px;
-    margin: 0;
-}
-
-.project-imageContainer {
-    width: 50%;
-    display: flex;
-    padding: 10px;
-    justify-content: flex-end;
-}
-
-.project img{
-    border-radius: 8px;
-}
-
-.project-title{
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 0px;
-}
-
-.project-course{
-    margin-bottom: 0px;
-    margin-top: 6px;
-}
-
-.project-description{
-    margin-top: 40px;
-    font-size: 19px;
-}
-
+/*HEADER*/
 
 .header {
     background-color: #4AD5FF;
@@ -134,42 +58,206 @@ h1 {
     padding: 0px 10px;
 }
 
+/*HERO*/
+
+.hero {
+    background-color: #004E64;
+    background-image: url(../images/perfil.jpg);
+    background-size: 135px 240px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.hero strong {
+    color: #20232A;
+}
+
+.portfolio {
+    background: white;
+    padding-bottom: 30px;
+}
+
+.portfolio h2 {
+    margin: 0;
+    padding: 30px 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/*PROJECT*/
+
+.project {
+    background-color: #ecf0f1;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 0px 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-details {
+    width: 50%;
+    padding: 10px;
+    margin: 0;
+}
+
+.project-imageContainer {
+    width: 50%;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+.project img {
+    border-radius: 8px;
+    width: 100%;
+    object-fit: none;
+}
+
+.project-title {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+}
+
+.project-course {
+    margin-bottom: 0px;
+    margin-top: 6px;
+}
+
+.project-description {
+    margin-top: 40px;
+    font-size: 19px;
+}
+
 figure {
     margin: 0;
 }
 
-#eventos {
-    background-color: #FFB300;
-}
+/*EVENT*/
 
-#eventos h2 {
-    margin-top: 0;
-    padding: 10px;
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: white;
 }
 
 .event {
-    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px;
+    flex-shrink: 0;
+    width: 800px;
+    height: 500px;
+    background-color: #f4fbff;
+    flex-direction: row;
+    align-items: center;
 }
 
-.event a {
-    color: black;
-    text-decoration: none;
-    border: 3px solid #4AD5FF;
-    padding: 3px;
-    border-radius: 10px;
-    background-color: #ecf0f1;
+.event-imageContainer {
+    width: inherit;
 }
+
+.event img {
+    width: inherit;
+    object-fit: cover;
+    height: 280px;
+}
+
+.event-detail {
+    margin: 0;
+    margin-left: 179px;
+    margin-top: -40px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #B6E4FF;
+    border-radius: 10px;
+    width: 400px;
+    height: 160px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event-description {
+    text-align: left;
+}
+
+.event h3 {
+    margin: 0;
+}
+
+.event-url {
+    color: 4AD5FF;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid #4AD5FF;
+    padding: 5px 20px;
+    width: 120px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+h2 {
+    /*     margin-top: 20px; */
+    color: white;
+    padding: 10px;
+    /*     margin-left: 60px;
+    margin-bottom: 0; */
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*CONTACT*/
 
 .contact {
-    background-color: #004E64;
+    background-color: #ecf0f1;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.contact-massage {
+    width: 50%;
+}
+
+.contact button {
+    background: white;
+    display: block;
+    margin-top: 10px;
+    border-color: 4AD5FF;
+    padding: 5px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.form-email input {
+    background-image: url(../images/sobre-cerrado.svg);
+    background-repeat: no-repeat;
+    border: 1px solid gray;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 5px 35px;
+    background-position-y: center;
+    background-position-x: 6px;
+}
+
+/*FOOTER*/
 
 footer {
     background-color: #004E64;
-    border-top: 2px solid #4AD5FF;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -188,4 +276,8 @@ footer {
 
 .footer img {
     vertical-align: middle;
+}
+
+.portfolio h2 {
+    color: black;
 }
