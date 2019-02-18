@@ -81,7 +81,7 @@ valores */
   background: rgba(27, 33, 39, .8);
   line-height: 40px;
   text-align: center;
-  z-index: 4;
+  z-index: 5;
   left: 4px;
   top: 4px;
   color: white;
@@ -213,12 +213,20 @@ figure {
 }
 
 .header a {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
   color: white;
   text-decoration: none;
 }
 
 .menu {
   height: inherit;
+}
+
+.menu.is-active{
+  left: 0;
 }
 
 .header ol {
@@ -228,13 +236,6 @@ figure {
 
 .header ol li {
   height: inherit;
-}
-
-.header a {
-  display: flex;
-  align-items: center;
-  height: inherit;
-  padding: 0 10px;
 }
 
 .flexbox {
@@ -441,6 +442,20 @@ figure {
 }
 
 @media screen and (max-width: 767px) {
+
+  .menu {
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: -100vw;
+    background: rgba(2, 111, 255, .9);
+    width: 100vw;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+  }
 
   .burger-buttom{
     display: block;
