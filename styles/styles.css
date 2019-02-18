@@ -67,7 +67,7 @@ h2 {
 }
 
 .hero {
-  height: 300px;
+  height: 200px;
   /* background-image: url('../images/hero.jpg'); */
   background-color: #1b2127;
   /* background-size: 500px 300px; */
@@ -333,13 +333,36 @@ figure {
 }
 
 @media screen and (max-width: 1024px) {
-  .container{
+  .container {
     padding: 0 1em;
   }
-
+  .hero {
+    position: relative;
+    overflow: hidden;
+    padding: 0em 2em;
+  }
+  h1 {
+    z-index: 2;
+    font-size: 2em;
+  }
+  .hero-image {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+  }
+  .container {
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  h1 {
+    font-size: 1.8em;
+  }
   .header {
     height: auto;
     display: block;
@@ -417,4 +440,12 @@ figure {
   }
 }
 
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 320px) {
+  h1{
+    font-size: 1em;
+  }
+
+  .hero{
+    height: 140px;
+  }
+}
