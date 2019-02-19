@@ -179,11 +179,13 @@
       if (event.matches) {
         console.log(event.matches);
         burger.addEventListener("click", hideShow);
-      }else{
+      } else {
         console.log(event.matches);
         burger.removeEventListener("click", hideShow);
       }
     }
+
+    validation(ipad);
 
     function hideShow() {
       if (menu.classList.contains("is-active")) {
